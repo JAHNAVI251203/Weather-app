@@ -3,7 +3,7 @@
 A simple and responsive Weather App built using HTML, CSS, and JavaScript that fetches real-time weather data from the OpenWeatherMap API.
 Users can search for any city and instantly see temperature, humidity, and wind speed.
 
----
+
 
 ## 🚀 Features
 
@@ -19,7 +19,7 @@ Users can search for any city and instantly see temperature, humidity, and wind 
 
 📱 Fully responsive design
 
----
+
 
 ## 🛠️ Technologies Used
 
