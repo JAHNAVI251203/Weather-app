@@ -26,9 +26,11 @@
           document.querySelector(".wind").innerHTML = data.wind.speed + "km/hr";
           
           //chooses icon based on weather condition
+          /*API uses an array instead of single object because sometimes there can be:
+            multiple weather conditions at once and API keeps it flexible*/
           if(data.weather[0].main == "Clouds"){
-          weatherIcon.src = "images/clouds.png";
-          }
+            weatherIcon.src = "images/clouds.png";
+            }
           else if(data.weather[0].main == "Clear"){
           weatherIcon.src = "images/clear.png";
           }
